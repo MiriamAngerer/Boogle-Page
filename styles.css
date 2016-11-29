@@ -1,0 +1,245 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+border: 0px;
+text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: grey;
+}
+
+/* Styles Index.html */
+
+#menuleft {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 350px;
+  text-align: right;
+  padding: 10px;
+}
+
+#center {
+  margin:0px auto;
+  position: absolute;
+  top:50%;
+  left:50%;
+  width:500px;
+  height: 200px;
+  margin-top:-100px;
+  margin-left:-250px;
+}
+
+#logobig {
+  height: 90px;
+  font-size: 4.5em;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+}
+
+#searchbar {
+  background-color:yellow;
+  width: 400px;
+  height:40px;
+  margin:0px auto;
+  border: 1px solid grey;
+}
+
+#buttons {
+  width: 350px;
+  height:50px;
+  margin:0px auto;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+input {
+  font-size: 1em;
+  width: 100%;
+  height:100%;
+  padding: 10px;
+}
+
+/* Styles Login.html */
+
+#centerlogin {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+#logo {
+  margin:0px auto;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+#signin {
+  width: 330px;
+  height: 330px;
+  border: 1px solid #969696;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#profileinformation {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Email {
+  height: 40px;
+  border: 1px solid #969696;
+  font-size: 1em;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+#circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #166cf7;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 25px 30px 30px 30px;
+  font-size: 2em;
+  margin-bottom:10px;
+}
+
+#services {
+  margin-top: 10px;
+}
+
+select {
+  width: 200px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid;
+}
+
+/* Styles allgemein */
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid #969696;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+#footerleft {
+  float: left;
+}
+
+#footerright {
+  float: right;
+}
+
+.left {
+  text-align:left;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+/* Links, Buttons */
+
+a.linksbottom:visited, a.linksbottom:link {
+  color: grey;
+}
+a.linksbottom:hover {
+  color: red;
+}
+
+a:link, a:visited {
+color:#166cf7;
+margin-right: 10px;
+}
+
+a:hover {
+color:#f94f25;
+}
+
+a.linkstop:visited, a.linkstop:link {
+  color: grey;
+  padding: 10px 0px;
+}
+a.linkstop:hover {
+  color: red;
+}
+
+a.signin:visited, a.signin:link {
+  background-color:#166cf7;
+  color: white;
+  padding: 10px;
+}
+
+
+button {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  display: inline;
+}
+
+.buttonsignin {
+  background-color:#166cf7;
+  width: 250px;
+  height:40px;
+}
+
+.buttonleft {
+  background-color: #969696;
+  float: left;
+}
+
+.buttonright {
+  background-color: #969696;
+  float: right;
+}
+
+
+/* Colors */
+
+.red {
+  color: #f94f25;
+}
+
+.blue {
+  color:#166cf7;
+}
+
+.orange {
+  color: orange;
+}
+
+.green{
+  color: #24af40;
+}
